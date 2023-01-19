@@ -1,13 +1,25 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
+axios.defaults.baseURL = 'http://plant-the-seed-server.onrender.com';
+
 // Fetch all products from db
 export const fetchProducts = createAsyncThunk(
   '/products/fetchProducts',
   async (props, thunkAPI) => {
     try {
       const keyword = props ? props : '';
-      const { data } = await axios.get(`/api/products?keyword=${keyword}`);
+      const config = {
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+        },
+      };
+      const { data } = await axios.get(
+        `/api/products?keyword=${keyword}`,
+        config
+      );
+      console.log(data);
       return data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.response.data.message);

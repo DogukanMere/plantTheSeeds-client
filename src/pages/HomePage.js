@@ -18,8 +18,6 @@ const HomePage = () => {
     (state) => state.products
   );
 
-  console.log(products);
-
   useEffect(() => {
     dispatch(fetchProducts(keyword));
   }, [dispatch, keyword]);
