@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+Plant_the_Seeds_MERN
+Demo Link: https://plant-the-seed.herokuapp.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+What is it about?
+People are becoming more and more interested in organic farming as a result of the prevalence of genetically modified fruits and vegetables. Due to the time and space requirements of planting, many people do not have the opportunity to do so. I have therefore developed a project concept that will assist people with their needs.
 
-## Available Scripts
+How it will work:
+Farmers will use their own land to make profits. In essence, users/consumers will rent farmers land as well as labour power in order to have any vegetable or fruit they choose. Simplistic flow is provided below:
 
-In the project directory, you can run:
+The website will use registration feature. In order to use the website's functions, both administrators and users must register for an account.
+Farmers/Business owners will add each seed they have for both vegetables and fruits into the system, along with price and a general description of each planting procedure, so that it will be visible to consumers on the website.
+Customers will select product(s) from the website, and their order will be added to the admin's list of orders.
+Farmers will begin the planting process, and the system will provide customers an estimated harvest time.
+Users can make a request to see their purchased product on field.
+The product will be shipped to the address after it is ready and being collected by farmers.
+Since not every person purchase good from farmer's markets or grows their own food, this system does not address everyone, but people interested in planting their own products. However, the urban environment does not give everyone the opportunity to have land or area to grow their own crops. Therefore, this system will help these individuals to use farmers’ land. There are some benefits of this system for both farmers and users:
 
-### `npm start`
+Benefits
+-> Benefits of using this system for Users:
+Users are receiving 100% organic products.
+Users can visit rural areas and participate in agricultural activities which will raises public awareness of both how hard farmers are working and where these products come from.
+Users have a chance to visit their products whenever you want to see the process. Additionally, they can learn every step and necessary knowledge needed to plant and cultivate a seed from a farmer which will also strengthen the interaction between farmers and people living in urban areas.
+-> Benefits for Farmers:
+With the help of this system, farmers will be able to get paid prior to planting, meaning they will start to earn as soon as a user makes a purchase. In other words, farmers will relieve certain worries (concerns) arising from the traditional farming system. What are these concerns? With the traditional farming:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Crops are not always giving 100% yield, so they might earn less than they expected
+Nobody is giving a guarantee that all products are going to be sold. There might be leftover products which is a loss for farmers as well. However, this application will help farmers not to worry about “selling the product part” with the traditional way if they get paid before they even start growing a product. System is selling only seeds/crops for vegetables and fruit, not selling the desired product itself. Therefore, even if there is an unexpected yield after harvest, it will not affect the farmers directly.
