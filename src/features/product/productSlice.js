@@ -1,8 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://plant-the-seed-server.onrender.com';
-
 // Fetch all products from db
 export const fetchProducts = createAsyncThunk(
   '/products/fetchProducts',
